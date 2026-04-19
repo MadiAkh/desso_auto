@@ -3,6 +3,10 @@ from app.core.database import engine, Base
 from sqlalchemy import text
 
 from app.models.order import Order
+from app.models.order_item import OrderItem
+from app.models.payment import Payment
+from app.models.cash_report import CashReport
+from app.models.check_result import CheckResult
 
 
 app = FastAPI(title="Desso Finance Control")
